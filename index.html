@@ -95,8 +95,8 @@
 		          <div class="col-md-12 heading-section ftco-animate">
 		          	<h1 class="big">About</h1>
 		            <h2 class="mb-4">About Me</h2>
-			            <p style="text-align: justify;">Solutions-focused Cloud Architect and AI Engineer with 6+ years designing and implementing enterprise-scale data platforms across GCP and AWS. Google Professional Data Engineer, ML Engineer, Cloud Architect, and Generative AI Leader certified. Proven track record leading technical consultations, delivering 5+ successful cloud migrations, and building cutting-edge AI solutions.</p>
-			<p style="text-align: justify;">Expert in translating complex business requirements into scalable, cost-optimized cloud architectures — from real-time streaming pipelines and multi-agent AI systems to large-scale ML deployments. Strong communicator with experience presenting to C-level executives and technical teams alike.</p>
+		            <p style="text-align: justify;">Solutions-focused Cloud Architect and AI Engineer with 6+ years designing and implementing enterprise-scale data platforms across GCP and AWS. Google Professional Data Engineer, ML Engineer, Cloud Architect, and Generative AI Leader certified. Proven track record leading technical consultations, delivering 5+ successful cloud migrations, and building cutting-edge AI solutions.</p>
+		            <p style="text-align: justify;">Expert in translating complex business requirements into scalable, cost-optimized cloud architectures — from real-time streaming pipelines and multi-agent AI systems to large-scale ML deployments. Strong communicator with experience presenting to C-level executives and technical teams alike.</p>
 		            <ul class="about-info mt-4 px-md-0 px-2">
 		            	<li class="d-flex"><span>Name:</span> <span>Anwar Shaikh</span></li>
 		            	<li class="d-flex"><span>Address:</span> <span>Atlanta, Georgia</span></li>
@@ -143,7 +143,7 @@
 					    	</div>
 					    	<div class="text pl-3">
 		    					<span class="date">2022 - 2023</span>
-		    					<h2>Master’s Degree In Information Systems - BigData Analytics</h2>
+		    					<h2>Master's Degree In Information Systems - BigData Analytics</h2>
 		    					<span class="position">Georgia State UniversitY, Atlanta</span>
 								<p>Course Work: BigData analytics - Machine Learning, Data Programming for analytics, BigData Infrastructure, Advanced AI, Information Technology Project Management, Process Innovation, Fundamentals of Database Management Systems, Security and Privacy of Information and Information Systems</p>
 	    					</div>
@@ -156,7 +156,7 @@
 		    					<span class="date">2015-2019</span>
 		    					<h2>Bachelor's Degree In Computer Science</h2>
 		    					<span class="position">MGM's Jawaharlal Nehru Engineering College, Aurangabad</span>
-								<p>Course Work: Data Structures, Operating Systems, JAVA & J2EE, Object Oriented Programming, Computer and Network Security, Web Programming, Theory of Computation, Parallel and Distributed Computing</p>
+								<p>Course Work: Data Structures, Operating Systems, JAVA &amp; J2EE, Object Oriented Programming, Computer and Network Security, Web Programming, Theory of Computation, Parallel and Distributed Computing</p>
 		    				</div>
 	    				</div>
 					  </div>
@@ -165,6 +165,7 @@
 
 					  	<!-- Dollar General -->
 	    				<div class="resume-wrap d-flex ftco-animate">
+	    						<img height=60 width=60 src="images/dollar-general.png">
 					    	<div class="text pl-3">
 		    					<span class="date">June 2025 - Present</span>
 		    					<h2>Senior Data AI Engineer</h2>
@@ -179,6 +180,7 @@
 
 	    				<!-- Onix -->
 	    				<div class="resume-wrap d-flex ftco-animate">
+	    						<img height=60 width=60 src="images/onix.png">
 					    	<div class="text pl-3">
 		    					<span class="date">Jan 2023 - May 2025</span>
 		    					<h2>Senior Data Engineer</h2>
@@ -286,12 +288,8 @@
                   <h2>Building ETL pipeline and performing Sentiment Analysis on IPL 2022 Twitter data</h2>
                   <span class="date">Mar 2022 - Jul 2022</span>
                   <ul>
-                    <li>
-                    Use Case: The user wants to capture IPL 2022 tweets at a rate of 1000 every 5min. Just so to get an understanding of how the APIs work, and later load and persist this data to a table to perform some analysis and Visualization on top of it. While loading the data he also wants to give sentiment scores to each tweet, if it is positive, negative, or neutral tweet.
-                    </li>
-                    <li>
-                    Proposed Solution: The solution involves using a cloud scheduler, which publishes messages to cloud pubsub every 5min in the given window. The pubsub receives these messages and triggers the cloud functions. The cloud function is the principal component in use, it will connect to Twitter API, bring tweets, clean them, and give polarity scores to identify the sentiment for the tweet. Once all this is done, it will store the data in google cloud storage and load the updated data frame to a big query. Data Studio, will connect with bigquery and give you the visualizations.
-                    </li>
+                    <li>Use Case: The user wants to capture IPL 2022 tweets at a rate of 1000 every 5min. Just so to get an understanding of how the APIs work, and later load and persist this data to a table to perform some analysis and Visualization on top of it. While loading the data he also wants to give sentiment scores to each tweet, if it is positive, negative, or neutral tweet.</li>
+                    <li>Proposed Solution: The solution involves using a cloud scheduler, which publishes messages to cloud pubsub every 5min in the given window. The pubsub receives these messages and triggers the cloud functions. The cloud function is the principal component in use, it will connect to Twitter API, bring tweets, clean them, and give polarity scores to identify the sentiment for the tweet. Once all this is done, it will store the data in google cloud storage and load the updated data frame to a big query. Data Studio, will connect with bigquery and give you the visualizations.</li>
                   </ul>
                   <span><a href="https://medium.com/plumbersofdatascience/building-etl-pipeline-and-performing-sentiment-analysis-on-ipl-2022-twitter-data-f488e038d66a">View</a></span>
                 </div>
@@ -302,12 +300,8 @@
                   <h2>Emotion Recognition</h2>
                   <span class="date">Apr 2019 - May 2019</span>
                   <ul>
-                    <li>
-                    This project recognizes human faces and their corresponding emotions from a webcam feed.
-                    </li>
-                    <li>
-                    Used OpenCV and Deep Learning.
-                    </li>
+                    <li>This project recognizes human faces and their corresponding emotions from a webcam feed.</li>
+                    <li>Used OpenCV and Deep Learning.</li>
                     <li>The model I have used is taken from here https://github.com/oarriaga/face_classification</li>
                   </ul>
                   <span><a href="https://github.com/anwarshaikh078/Emotion-Recognition">View</a></span>
@@ -319,12 +313,8 @@
                   <h2>Invisibility-Cloak</h2>
                   <span class="date">Apr 2019 - May 2019</span>
                   <ul>
-                    <li>
-                      If you are a Harry Potter fan like me, you would know what an Invisibility Cloak is. Yes! It’s the cloak which Harry Potter uses to become invisible. Of course, we all know that an invisibility cloak is not real — it’s all graphics trickery. Well, it turns out that you can create this magical experience using an image processing technique called color detection and segmentation.
-                    </li>
-                    <li>
-                    The algorithm is very similar in principle to green screening. But unlike green screening where we remove the background, in this application, we remove the foreground!
-                    </li>
+                    <li>If you are a Harry Potter fan like me, you would know what an Invisibility Cloak is. Yes! It's the cloak which Harry Potter uses to become invisible. Of course, we all know that an invisibility cloak is not real — it's all graphics trickery. Well, it turns out that you can create this magical experience using an image processing technique called color detection and segmentation.</li>
+                    <li>The algorithm is very similar in principle to green screening. But unlike green screening where we remove the background, in this application, we remove the foreground!</li>
                   </ul>
                   <span><a href="https://github.com/anwarshaikh078/Invisibility-Cloak">View</a></span>
                 </div>
@@ -335,9 +325,7 @@
                   <h2>Sentiment Analysis of movie reviews</h2>
                   <span class="date">Mar 2019 - Apr 2019</span>
                   <ul>
-                    <li>
-                      Sentiment analysis can be thought of as the exercise of taking a sentence, paragraph, document, or any piece of natural language, and determining whether that text's emotional tone is positive, negative or neutral. Sentiment Analysis is a common NLP task that Data Scientists need to perform.
-                    </li>
+                    <li>Sentiment analysis can be thought of as the exercise of taking a sentence, paragraph, document, or any piece of natural language, and determining whether that text's emotional tone is positive, negative or neutral. Sentiment Analysis is a common NLP task that Data Scientists need to perform.</li>
                   </ul>
                   <span><a href="https://github.com/anwarshaikh078/LSTM-Sentiment-Analysis">View</a></span>
                 </div>
@@ -348,9 +336,7 @@
                   <h2>Art Generation using Neural Style Transfer</h2>
                   <span class="date">Jan 2019 - Feb 2019</span>
                   <ul>
-                    <li>
-                      Neural Style Transfer (NST) is one of the most fun techniques in deep learning. It merges two images, namely, a "content" image (C) and a "style" image (S), to create a "generated" image (G). The generated image G combines the "content" of the image C with the "style" of image S. Neural Style Transfer (NST) uses a previously trained convolutional network, and builds on top of that.
-                    </li>
+                    <li>Neural Style Transfer (NST) is one of the most fun techniques in deep learning. It merges two images, namely, a "content" image (C) and a "style" image (S), to create a "generated" image (G). The generated image G combines the "content" of the image C with the "style" of image S. Neural Style Transfer (NST) uses a previously trained convolutional network, and builds on top of that.</li>
                   </ul>
                   <span><a href="https://github.com/anwarshaikh078/Art-Generation-using-Neural-Style-Transfer">View</a></span>
                 </div>
@@ -361,9 +347,7 @@
                   <h2>Digit Recognizer</h2>
                   <span class="date">Jan 2019 - Feb 2019</span>
                   <ul>
-                    <li>
-                      Made a Digit Recognizer using openCV and CNN. It helps you to classify digits using webcam. The image taken from the webcam, and goes to the CNN model, where all the digit is predicted.
-                    </li>
+                    <li>Made a Digit Recognizer using openCV and CNN. It helps you to classify digits using webcam. The image taken from the webcam, and goes to the CNN model, where all the digit is predicted.</li>
                   </ul>
                   <span><a href="https://github.com/anwarshaikh078/Digit-Recognizer-using-openCV-and-CNN">View</a></span>
                 </div>
@@ -374,96 +358,27 @@
                   <h2>JNEC Swayambhu - Android Application that is used for event description and pre-bookings </h2>
                   <span class="date">Jan 2018 - Mar 2019</span>
                   <ul>
-                    <li>
-                      Comes with an Interative UI.
-                    </li>
-                    <li>
-                      Sign-up for new users.
-                    </li>
-                    <li>
-                      Detailed event descriptions.
-                    </li>
-                    <li>
-                      Notifies the user on event registration through SMS and Email.
-                    </li>
+                    <li>Comes with an Interative UI.</li>
+                    <li>Sign-up for new users.</li>
+                    <li>Detailed event descriptions.</li>
+                    <li>Notifies the user on event registration through SMS and Email.</li>
                   </ul>
                   <span><a href="https://github.com/anwarshaikh078/Swayambhu">View</a></span>
                 </div>
               </div>
+
               <div class="resume-wrap d-flex ftco-animate">
                 <div class="text pl-3">
                   <h2>File Explorer with Cloud Storage ( Desktop Application )</h2>
                   <span class="date">Oct 2017 - Nov 2017</span>
                   <ul>
-                    <li>
-                      A desktop Application that manage your files as well as, you can store your files, images, videos, etc directly to your Google drive, without actually opening your drive. For this project we have used Google drive API and some system libraries in C#.
-                    </li>
+                    <li>A desktop Application that manage your files as well as, you can store your files, images, videos, etc directly to your Google drive, without actually opening your drive. For this project we have used Google drive API and some system libraries in C#.</li>
                   </ul>
                 </div>
               </div>
 
 					  </div>
 
-            <!--
-            <div id="page-8" class= "page eight" >
-                <div class="content">
-
-                  <div class="container">
-                    <div class="row justify-content-center">
-                      <div class="col-md-10">
-
-
-                    <div class="row justify-content-center">
-                      <div class="col-md-6">
-
-                        <h3 class="heading mb-4">Let's talk about everything!</h3>
-                        <p>Drop me you're email and message.</p>
-                        <p>I'll get back to you!</p>
-
-                        <p><img src="images/undraw-contact.svg" alt="Image" class="img-fluid"></p>
-
-
-                      </div>
-                      <div class="col-md-6">
-
-                        <form class="mb-5" method="post" id="contactForm" name="contactForm">
-                          <div class="row">
-                            <div class="col-md-12 form-group">
-                              <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-12 form-group">
-                              <input type="text" class="form-control" name="email" id="email" placeholder="Email">
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-12 form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-12 form-group">
-                              <textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="Write your message"></textarea>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-12">
-                              <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
-                            <span class="submitting"></span>
-                            </div>
-                          </div>
-                        </form>
-
-                        <div id="form-message-warning mt-4"></div>
-                        <div id="form-message-success">
-                          Your message was sent, thank you!
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>-->
-              </div>
             </div>
             </div>
 					</div>
@@ -491,8 +406,6 @@
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery.validate.min.js"></script>
-
-
 
   <div align='center'>
     <p>Thank You for taking time to visit my portfolio!</p>
